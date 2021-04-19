@@ -38,4 +38,5 @@ jobs:
           unzip xray_linux_amd64.zip
           ls
           chmod +x xray_linux_amd64
-          ./xray_linux_amd64
+          ./xray_linux_amd64 webscan --url http://testphp.vulnweb.com/ --text-output example.txt
+          cat example.txt
