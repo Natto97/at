@@ -37,4 +37,5 @@ jobs:
           wget https://github.com/chaitin/xray/releases/download/1.7.1/xray_linux_amd64.zip
           unzip xray_linux_amd64.zip
           ls
-          xray_linux_amd64
+          chmod +x xray_linux_amd64
+          ./xray_linux_amd64
