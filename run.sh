@@ -3,4 +3,5 @@ unzip xray_linux_amd64.zip
 ls
 chmod +x xray_linux_amd64
 git clone https://github.com/Natto97/at
-./xray_linux_amd64 webscan "---target-file"  at/url.txt 
+cp xray_linux_amd64 /usr/xray
+cat  at/url.txt | xray webscan
