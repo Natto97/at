@@ -32,5 +32,5 @@ jobs:
           ls
           chmod +x xray_linux_amd64
           git clone https://github.com/Natto97/at
-          echo ./xray_linux_amd64 webscan   "--target-file"  at/url.txt  > run.sh
+          echo ./xray_linux_amd64 webscan   `echo --target-file`  at/url.txt  > run.sh
           bash run.sh
