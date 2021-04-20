@@ -6,5 +6,5 @@ ls
 chmod +x xray_linux_amd64
 git clone https://github.com/Natto97/at
 
-echo ./xray webscan --url-file at/url.txt > run.sh
+echo ./xray_linux_amd64 webscan --url-file at/url.txt > run.sh
 zsh run.sh
