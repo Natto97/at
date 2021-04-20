@@ -22,11 +22,11 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: natto97/at@main
+# Checks-out your repository under $GITHUB_WORKSPACE, so your job can access i
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
+          git clone https://github.com/Natto97/at
           ls
           ls at
