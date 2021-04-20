@@ -39,4 +39,3 @@ jobs:
           ls
           chmod +x xray_linux_amd64
           ./xray_linux_amd64 webscan --basic-crawler --url http://testphp.vulnweb.com/ 
-          cat example.txt
